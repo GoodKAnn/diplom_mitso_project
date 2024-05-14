@@ -12,23 +12,22 @@
 - возможность оставить отзыв;
 - рейтинговая систем;
 - личный кабинет (регистрация, аутентификация).
-![pic](./screenshots/main.png)
-![pic](./screenshots/main2.png)
-![pic](./screenshots/categories.png)
-![pic](./screenshots/product_availability_true.png)
-![pic](./screenshots/product_availability.png)
+![pic](./screenshots/main_1.png)
+![pic](./screenshots/main_2.png)
+![pic](./screenshots/categories1.png)
+![pic](./screenshots/product.png)
 
 2) #### CART:
 - возможность добавлять и удалять товары в корзине;
 - расчет стоимости.
-![pic](./screenshots/cart.png)
+![pic](./screenshots/cart1.png)
 
 
 3) #### ORDERS:
 - возможность оформить заказ с тестовой отправкой заказа на e-mail;
 - отображение заказов в админке.
-![pic](./screenshots/cart_form.png)
-![pic](./screenshots/succes_order.png)
+![pic](./screenshots/cart_form1.png)
+![pic](./screenshots/succes_order1.png)
 
 ### Дополнительно реализовано: 
 - админ-панель с возможностью загружать и настраивать товары (включая фото) и категории;
@@ -36,7 +35,7 @@
 - Django Debug Toolbar (оптимизация части запросов-удалены дубли для ленивых запросов);
 - кэширование;
 - форма обратной связи.
-![pic](./screenshots/feedback_form.png)
+![pic](./screenshots/feedback_form1.png)
 ## Установка
 
 1) Установите Python 3.10 и виртуальное окружение (virtualenv), если еще не установлены.
