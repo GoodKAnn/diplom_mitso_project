@@ -21,7 +21,7 @@
                         <a href="{{ product.category.get_absolute_url }}"> {{ product.category }}</a>
                     </div>
                     <div>
-                        <span class="font-weight-bold text-grey">Цена: <span class="price">₽ {{ product.price }}</span></span>
+                        <span class="font-weight-bold text-grey">Цена: <span class="price">BYN {{ product.price }}</span></span>
                     </div>
                 </div>
                 <div class="mt-3">
@@ -44,7 +44,7 @@
                         {% csrf_token %}
                         <span class="input-group add-to-cart shadow-custom">
                             <div class="input-group-prepend">
-                                <span class="input-group-text font-weight-bold px-3 price">₽{{ product.price }}</span>
+                                <span class="input-group-text font-weight-bold px-3 price">BYN{{ product.price }}</span>
                             </div>
                             {{ cart_product_form.quantity }}
                             <div class="input-group-append">
